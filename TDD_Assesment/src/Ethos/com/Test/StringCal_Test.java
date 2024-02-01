@@ -16,7 +16,8 @@ public class StringCal_Test
         return new Object[][]
         		{
         	     {"", 0},
-        	     {"1,2",3}
+        	     {"1,2",3},
+        	     {"1,\n4,2",7}
                 
               };
     }
